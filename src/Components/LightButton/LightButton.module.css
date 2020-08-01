@@ -20,7 +20,6 @@
   background-color: #24E0FF;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #006 0 -1px 9px, #3F8CFF 0 2px 14px;
-  //animation: blinkBlue 0.5s infinite ease-in-out;
 }
 
 .green {
@@ -39,11 +38,6 @@
   background-color: #FF0;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 12px;
-  //-webkit-animation: blinkYellow 1s infinite;
-  //-moz-animation: blinkYellow 1s infinite;
-  //-ms-animation: blinkYellow 1s infinite;
-  //-o-animation: blinkYellow 1s infinite;
-  //animation: blinkYellow 1s infinite;
 }
 
 .red {
@@ -53,26 +47,40 @@
   background-color: #F00;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
-  //-webkit-animation: blinkRed 0.5s infinite;
-  //-moz-animation: blinkRed 0.5s infinite;
-  //-ms-animation: blinkRed 0.5s infinite;
-  //-o-animation: blinkRed 0.5s infinite;
-  //animation: blinkRed 0.5s infinite;
 }
 
 @keyframes blinkYellow {
-  from { background-color: #FF0; }
-  50% { background-color: #AA0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 0; }
-  to { background-color: #FF0; }
+  from {
+    background-color: #FF0;
+  }
+  50% {
+    background-color: #AA0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 0;
+  }
+  to {
+    background-color: #FF0;
+  }
 }
-
 @keyframes blinkBlue {
-  from { background-color: #3F8CFF; }
-  to { background-color: #132e57; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #120c42 0 -1px 9px, #3F8CFF 0 2px 0; }  // #120c42 was #808002
+  from {
+    background-color: #3F8CFF;
+  }
+  to {
+    background-color: #132e57;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #120c42 0 -1px 9px, #3F8CFF 0 2px 0;
+  }
+}
+@keyframes blinkRed {
+  from {
+    background-color: #F00;
+  }
+  50% {
+    background-color: #780000;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;
+  }
+  to {
+    background-color: #F00;
+  }
 }
 
-@keyframes blinkRed {
-  from { background-color: #F00; }
-  50% { background-color: #780000; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}  // #780000 was #A00
-  to { background-color: #F00; }
-}
+/*# sourceMappingURL=LightButton.module.css.map */
