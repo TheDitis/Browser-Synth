@@ -5,6 +5,7 @@ import Oscillator from "../Oscillator/Oscillator";
 import Filter from "../Filter/Filter";
 import LightButton from "../LightButton/LightButton";
 import LFO from "../LFO/LFO";
+import Scope from "../Scope/Scope";
 
 function App() {
   const [audio, setAudio] = useState(new AudioContext());
@@ -16,17 +17,13 @@ function App() {
   const [outGain, setOutGain] = useState(audio.createGain());
   const [lfoGain1, setLfoGain1] = useState(audio.createGain());
   const [filter, setFilter] = useState(audio.createBiquadFilter());
-  const [analyser, setAnalyser] = useState(audio.createAnalyser());
+  const [analyzer, setAnalyzer] = useState(audio.createAnalyser());
 
-  // useEffect(() => {
-  //   let audioData = new Float32Array(analyser.frequencyBinCount);
-  //   console.log(analyser.getFloatTimeDomainData(audioData))
-  // })
 
   const setupFunc = () => {
     osc1.frequency.setTargetAtTime(440, audio.currentTime, 0);
-    // analyser.connect(audio.destination);
-    outGain.connect(audio.destination);
+    analyzer.connect(audio.destination);
+    outGain.connect(analyzer);
     filter.connect(outGain);
     filter.type = "lowpass";
     osc1.connect(gain1);
@@ -50,7 +47,7 @@ function App() {
       </div>
       <LFO audio={audio} osc={lfo1} gain={lfoGain1} number={0}/>
       <Filter audio={audio} filter={filter} number={0}/>
-      {/*<LightButton color={"green"} brightness={}/>*/}
+      <Scope analyzer={analyzer}/>
     </div>
   );
 }

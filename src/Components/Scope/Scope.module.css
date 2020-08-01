@@ -1,0 +1,17 @@
+.Scope {
+  background-color: slategrey;
+  padding: 20px;
+  display: flex;
+}
+
+.screen {
+  background-color: #132e57;
+  border-radius: 20px;
+}
+
+.controls {
+  display: flex;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=Scope.module.css.map */
