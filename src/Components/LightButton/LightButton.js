@@ -12,7 +12,8 @@ const LightButton = props => {
         blue: styles.blue,
         green: styles.green,
         red: styles.red,
-        yellow: styles.yellow
+        yellow: styles.yellow,
+        purple: styles.purple
     };
 
     const colorMap = {
@@ -36,6 +37,11 @@ const LightButton = props => {
                 "#FF0",
                 "#594d09",
                 "#FF0"
+            ],
+            purple: [
+                "#ed24ff",
+                "#3d0066",
+                "#d93fff"
             ]
         },
         off: {
@@ -54,11 +60,13 @@ const LightButton = props => {
             yellow: [
                 "#4f440b",
                 "#262604"
+            ],
+            purple: [
+                "#341357",
+                "#310c42"
             ]
         }
-    }
-
-
+    };
 
     const calculateStyle = () => {
         const onCols = colorMap.on[color];
@@ -66,7 +74,6 @@ const LightButton = props => {
         const shadowColor = mixColors(offCols[1], onCols[1], props.brightness);
         const middleColor = colorMap.on[color][2];
         const pxVal = Math.round(props.brightness * 14);
-        // console.log("colorList: ", onCols, "first: ", onCols[0]);
         return {
             backgroundColor: mixColors(offCols[0], onCols[0], props.brightness),
             boxShadow: `rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset ${shadowColor} 0 -1px 9px, ${middleColor} 0 0 ${pxVal}px`,

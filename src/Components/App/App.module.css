@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+.oscillatorSection {
+  display: flex;
+  width: 100%;
+}

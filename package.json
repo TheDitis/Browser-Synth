@@ -13,7 +13,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "sass": "^1.26.10",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "tone": "^14.7.39"
   },
   "scripts": {
     "start": "react-scripts start",

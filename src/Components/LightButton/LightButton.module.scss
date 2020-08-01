@@ -23,6 +23,16 @@
   //animation: blinkBlue 0.5s infinite ease-in-out;
 }
 
+.purple {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #ed24ff;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #3d0066 0 -1px 9px, #d93fff 0 2px 14px;
+  //animation: blinkBlue 0.5s infinite ease-in-out;
+}
+
 .green {
   margin: 0 auto;
   width: 24px;
@@ -69,6 +79,11 @@
 @keyframes blinkBlue {
   from { background-color: #3F8CFF; }
   to { background-color: #132e57; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #120c42 0 -1px 9px, #3F8CFF 0 2px 0; }  // #120c42 was #808002
+}
+
+@keyframes blinkPurple {
+  from { background-color: #d93fff; }
+  to { background-color: #341357; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #310c42 0 -1px 9px, #d53fff 0 2px 0; }  // #120c42 was #808002
 }
 
 @keyframes blinkRed {
