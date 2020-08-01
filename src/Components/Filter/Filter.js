@@ -8,7 +8,6 @@ const Filter = props => {
             <Typography>Cutoff</Typography>
             <Slider
                 onChange={(e, val) => {
-                    console.log(val);
                     props.filter.frequency.setTargetAtTime(Math.round(val), props.audio.currentTime, 0);
                 }}
                 min={20}
@@ -18,8 +17,7 @@ const Filter = props => {
             <Typography>Resonance</Typography>
             <Slider
                 onChange={(e, val) => {
-                    val = val / 100;
-                    console.log(val);
+                    val = val / 10;
                     props.filter.Q.setTargetAtTime(Math.round(val), props.audio.currentTime, 0);
                 }}
                 min={0}

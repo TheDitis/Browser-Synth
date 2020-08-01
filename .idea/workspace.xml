@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b3d524-7fca-4f3f-b876-d03cc24d03a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LightButton/LightButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LightButton/LightButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helper Functions/mixColors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LightButton/LightButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LightButton/LightButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596223837396</updated>
-      <workItem from="1596223838864" duration="17577000" />
+      <workItem from="1596223838864" duration="19207000" />
     </task>
     <servers />
   </component>

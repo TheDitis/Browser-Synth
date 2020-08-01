@@ -37,7 +37,6 @@ const Oscillator = props => {
                 <Typography className={styles.label}>Frequency</Typography>
                 <Slider
                     onChange={(e, val) => {
-                        console.log(val);
                         props.osc.frequency.setTargetAtTime(Math.round(val), props.audio.currentTime, 0);
                     }}
                     min={20}
@@ -48,7 +47,6 @@ const Oscillator = props => {
                 <Slider
                     onChange={(e, val) => {
                         val = val / 1000;
-                        console.log(val);
                         setVolume(val)
                     }}
                     min={0}
