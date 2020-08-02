@@ -9238,6 +9238,11 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-circular-input@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/react-circular-input/-/react-circular-input-0.2.1.tgz#966e1474ac6628a07240e096d4dbd28e087922cb"
+  integrity sha512-pRs40Q9zRMrh3k8UQXyC+khzeiFrPsBHYorDvBIVeAKl9ReAow0jHqe+NALJnNjzZfFNNq2AI1yQSlpYcdlBig==
+
 react-dev-utils@^10.2.1:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.1.tgz#f6de325ae25fa4d546d09df4bb1befdc6dd19c19"
@@ -9267,6 +9272,11 @@ react-dev-utils@^10.2.1:
     shell-quote "1.7.2"
     strip-ansi "6.0.0"
     text-table "0.2.0"
+
+react-dial-knob@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/react-dial-knob/-/react-dial-knob-1.1.5.tgz#9ec1d8f450ed36b383c1150e7d2b32ac53616073"
+  integrity sha512-lo6RBzK9H8FhWLdx5JHXOX2Yf7pEzoycusuGNQMeypLlalRItWp0KoG4EttYn9HWv4BMPvG6IT0GdOyNqjAW2w==
 
 react-dom@^16.13.1:
   version "16.13.1"

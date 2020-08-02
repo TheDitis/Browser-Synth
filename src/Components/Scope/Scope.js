@@ -40,8 +40,14 @@ const Scope = props => {
             <div className={styles.screen}>
                 <Stage width={width} height={height}>
                     <Layer>
-                        <Line filters={[Konva.Filters.Blur]} blurRadius={10} x={0} y={0} stroke={"#24E0FF"}
-                              strokeWidth={8} points={points}/>
+                        <Line filters={[Konva.Filters.Blur]}
+                              blurRadius={10}
+                              x={0}
+                              y={0}
+                              stroke={"#24E0FF"}
+                              strokeWidth={8}
+                              points={points}
+                        />
                     </Layer>
                 </Stage>
             </div>
@@ -52,6 +58,7 @@ const Scope = props => {
                     min={10}
                     max={500}
                     onChange={(e, val) => {
+                        val = val / 10;
                         setRefreshRate(val);
                     }}
                 />

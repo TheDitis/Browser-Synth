@@ -13,7 +13,12 @@
 }
 
 .title {
+  text-align: left;
   color: white;
+  padding: 0;
+  padding-left: 30px;
+  margin: 0;
+  font-size: 18pt;
 }
 
 .muteButton {
@@ -30,6 +35,8 @@
 
 .label {
   color: white;
+  text-align: left;
+  margin: 0;
 }
 
 /*# sourceMappingURL=Filter.module.css.map */

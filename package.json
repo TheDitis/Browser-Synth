@@ -12,6 +12,8 @@
     "luxon": "^1.24.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-circular-input": "^0.2.1",
+    "react-dial-knob": "^1.1.5",
     "react-dom": "^16.13.1",
     "react-konva": "^16.13.0-5",
     "react-scripts": "3.4.1",

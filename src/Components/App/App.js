@@ -1,9 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {Slider, Button} from "@material-ui/core";
 import styles from './App.module.css';
 import Oscillator from "../Oscillator/Oscillator";
 import Filter from "../Filter/Filter";
-import LightButton from "../LightButton/LightButton";
 import LFO from "../LFO/LFO";
 import Scope from "../Scope/Scope";
 
@@ -44,9 +42,9 @@ function App() {
       <div className={styles.oscillatorSection}>
         <Oscillator audio={audio} osc={osc1} gain={gain1} number={0}/>
         <Oscillator audio={audio} osc={osc2} gain={gain2} number={1}/>
+        <LFO audio={audio} osc={lfo1} gain={lfoGain1} number={0}/>
+        <Filter audio={audio} filter={filter} number={0}/>
       </div>
-      <LFO audio={audio} osc={lfo1} gain={lfoGain1} number={0}/>
-      <Filter audio={audio} filter={filter} number={0}/>
       <Scope analyzer={analyzer}/>
     </div>
   );

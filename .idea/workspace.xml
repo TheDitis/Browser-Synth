@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b3d524-7fca-4f3f-b876-d03cc24d03a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Scope/Scope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Scope/Scope.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Parameter/Parameter.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Filter/Filter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Filter/Filter.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Filter/Filter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LFO/LFO.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LFO/LFO.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LFO/LFO.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LFO/LFO.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LFO/LFO.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LFO/LFO.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LFO/LFO.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LFO/LFO.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LightButton/LightButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LightButton/LightButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Oscillator/Oscillator.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Scope/Scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Scope/Scope.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596223837396</updated>
       <workItem from="1596223838864" duration="21100000" />
-      <workItem from="1596297831594" duration="8541000" />
+      <workItem from="1596297831594" duration="17264000" />
     </task>
     <servers />
   </component>

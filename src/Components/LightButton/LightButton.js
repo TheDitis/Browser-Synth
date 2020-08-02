@@ -76,8 +76,7 @@ const LightButton = props => {
         const pxVal = Math.round(props.brightness * 14);
         return {
             backgroundColor: mixColors(offCols[0], onCols[0], props.brightness),
-            boxShadow: `rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset ${shadowColor} 0 -1px 9px, ${middleColor} 0 0 ${pxVal}px`,
-            voxShadow: `rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 12px;`
+            boxShadow: `rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset ${shadowColor} 0 -1px 9px, ${middleColor} 0 0 ${pxVal}px`
         }
     };
 

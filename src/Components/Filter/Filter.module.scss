@@ -5,7 +5,6 @@
 }
 
 .header {
-  //display: flex;
   border-bottom: 2px solid black;
   padding: 10px;
 }
@@ -15,7 +14,12 @@
 }
 
 .title {
+  text-align: left;
   color: white;
+  padding: 0;
+  padding-left: 30px;
+  margin: 0;
+  font-size: 18pt;
 }
 
 .muteButton {
@@ -32,4 +36,6 @@
 
 .label {
   color: white;
+  text-align: left;
+  margin: 0;
 }
