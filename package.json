@@ -10,7 +10,7 @@
     "framer-motion": "^2.3.0",
     "konva": "^7.0.4",
     "luxon": "^1.24.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-circular-input": "^0.2.1",
     "react-dial-knob": "^1.1.5",
